@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\mist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\mist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 149,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Mist\\appsettings.Development.json",
+              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\appsettings.Development.json",
+              "RelativeToolTip": "Mist\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T14:22:57.227Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -58,6 +92,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mist",
+              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Mist.csproj",
+              "RelativeDocumentMoniker": "Mist\\Mist.csproj",
+              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Mist.csproj",
+              "RelativeToolTip": "Mist\\Mist.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T14:19:13.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Program.cs",
+              "RelativeDocumentMoniker": "Mist\\Program.cs",
+              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Program.cs",
+              "RelativeToolTip": "Mist\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:39:55.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\appsettings.json",
+              "RelativeDocumentMoniker": "Mist\\appsettings.json",
+              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\appsettings.json",
+              "RelativeToolTip": "Mist\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-07T13:39:13.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Mist\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Mist\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-07T13:36:27.289Z",
+              "EditorCaption": ""
             }
           ]
         }

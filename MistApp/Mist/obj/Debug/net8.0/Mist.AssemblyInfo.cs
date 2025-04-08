@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mist")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c0da82eded24f01fcda62b392ea126800b69ec3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+654b0309f236bbc614d443a2af6dd44fca59bb5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mist")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mist")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

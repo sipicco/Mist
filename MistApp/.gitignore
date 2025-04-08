@@ -1,0 +1,11 @@
+# VS specific
+.vs/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+
+# EF Core
+Migrations/
