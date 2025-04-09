@@ -11,8 +11,8 @@ Technologies: ASP.NET Core, Entity Framework, AWS, REST APIs
 
 | Feature           | Tech Stack                            | Skills Gained                         | Status |
 |------------------|----------------------------------------|---------------------------------------|--------|
-| Project setup     | ASP.NET Core, EF Core                  | Backend architecture                  | ⬅️     |
-| Register/Login    | ASP.NET Identity / JWT / AWS Cognito   | Authentication & security             | 🕐     |
+| Project setup     | ASP.NET Core, EF Core                  | Backend architecture                  | ✅     |
+| Register/Login    | ASP.NET Identity / JWT / AWS Cognito   | Authentication & security             | ⬅️     |
 | User profile API  | REST endpoints                         | Role-based auth, token handling       | 🕐     |
 
 ---
