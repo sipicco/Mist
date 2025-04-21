@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Mist.Backend.Models;
+using Mist.Backend.Entities;
 
 namespace Mist.Backend.Data
 {
@@ -20,7 +20,9 @@ namespace Mist.Backend.Data
 			{
 				Id = Guid.Parse("12341234-1234-1234-1234-123412341234"),
 				PasswordHash = Convert.FromBase64String("cGFzc3dvcmRoYXNo"), // password hash
-				PasswordSalt = Convert.FromBase64String("c2FsdGRhdGE=") // "saltdata"
+				PasswordSalt = Convert.FromBase64String("c2FsdGRhdGE="), // "saltdata"
+				Username = "seedUsername",
+				Email = "seedEmail@gmail.com"
 			});
 		}
 	}
