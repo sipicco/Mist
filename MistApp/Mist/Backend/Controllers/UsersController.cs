@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mist.Backend.DTOs;
 using Mist.Backend.Models;
 using Mist.Backend.Services.Interfaces;
 
@@ -50,5 +51,12 @@ public class UsersController : ControllerBase
 	public async Task<IActionResult> Post([FromBody] CreateUserRequest request)
 	{
 		return Ok(await _userService.RegisterUserAsync(request));
+	}
+
+	[Route("")]
+	[HttpPut]
+	public async Task<IActionResult> Put([FromQuery] Guid userId, [FromBody] EditUserDto dto)
+	{
+		return Ok(await _userService.EditUser(userId, dto));
 	}
 }

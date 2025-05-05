@@ -60,4 +60,29 @@ public class UserRepository : IUserRepository
 
 		return user.Id;
 	}
+
+	public async Task<GetUserDto> EditUserAsync(Guid userId, EditUserDto dto)
+	{
+		var retrievedUser = await _dbContext.Users.FirstOrDefaultAsync(u => u.Id == userId);
+
+		if (retrievedUser.Email != dto.Email || retrievedUser.Username != dto.Username)
+		{
+			retrievedUser.Email = !string.IsNullOrWhiteSpace(dto.Email)
+			? dto.Email
+			: retrievedUser.Email;
+
+			retrievedUser.Username = !string.IsNullOrWhiteSpace(dto.Username)
+				? dto.Username
+				: retrievedUser.Username;
+
+			await _dbContext.SaveChangesAsync();
+		}		
+
+		return new GetUserDto
+		{
+			Id = retrievedUser.Id,
+			Email = retrievedUser.Email,
+			Username = retrievedUser.Username
+		};
+	}
 }

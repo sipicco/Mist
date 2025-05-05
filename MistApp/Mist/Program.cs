@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Mist.Backend.Data;
+using Mist.Backend.Middlewares;
 using Mist.Backend.Repositories.Implementations;
 using Mist.Backend.Repositories.Interfaces;
 using Mist.Backend.Services.Implementations;

@@ -3,36 +3,48 @@
   "WorkspaceRootPath": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\exceptions\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\exceptions\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\services\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\services\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\dtos\\edituserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\dtos\\edituserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\models\\getusersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\models\\getusersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\dtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\dtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,12 +55,12 @@
       "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\models\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\models\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\dtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\dtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\backend\\models\\getusersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|solutionrelative:mist\\backend\\models\\getusersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3F5FEDC-EF90-484F-B451-365D6B1EF83E}|Mist\\Mist.csproj|c:\\z_personal\\sipiccorepos\\mist\\mistapp\\mist\\mist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -62,17 +74,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 149,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Mist\\Backend\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Mist\\Backend\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAArwCYAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAADgvyYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T14:23:47.826Z",
               "IsPinned": true,
@@ -80,13 +92,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Services\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Mist\\Backend\\Services\\Interfaces\\IUserService.cs",
               "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Services\\Interfaces\\IUserService.cs",
               "RelativeToolTip": "Mist\\Backend\\Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T14:22:14.225Z",
               "IsPinned": true,
@@ -94,13 +106,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Services\\Implementations\\UserService.cs",
               "RelativeDocumentMoniker": "Mist\\Backend\\Services\\Implementations\\UserService.cs",
               "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Services\\Implementations\\UserService.cs",
               "RelativeToolTip": "Mist\\Backend\\Services\\Implementations\\UserService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBkAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T14:16:59.308Z",
               "IsPinned": true,
@@ -108,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Repositories\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Mist\\Backend\\Repositories\\Interfaces\\IUserRepository.cs",
               "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Repositories\\Interfaces\\IUserRepository.cs",
               "RelativeToolTip": "Mist\\Backend\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T14:22:55.474Z",
               "IsPinned": true,
@@ -128,23 +140,10 @@
               "RelativeDocumentMoniker": "Mist\\Backend\\Repositories\\Implementations\\UserRepository.cs",
               "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Repositories\\Implementations\\UserRepository.cs",
               "RelativeToolTip": "Mist\\Backend\\Repositories\\Implementations\\UserRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowCsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T14:20:19.235Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExceptionHandlingMiddleware.cs",
-              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Exceptions\\ExceptionHandlingMiddleware.cs",
-              "RelativeDocumentMoniker": "Mist\\Backend\\Exceptions\\ExceptionHandlingMiddleware.cs",
-              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Exceptions\\ExceptionHandlingMiddleware.cs",
-              "RelativeToolTip": "Mist\\Backend\\Exceptions\\ExceptionHandlingMiddleware.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAADgvy0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T10:08:03.039Z",
               "EditorCaption": ""
             },
             {
@@ -200,8 +199,51 @@
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidationHelper.cs",
+              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Services\\Helpers\\ValidationHelper.cs",
+              "RelativeDocumentMoniker": "Mist\\Backend\\Services\\Helpers\\ValidationHelper.cs",
+              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Services\\Helpers\\ValidationHelper.cs",
+              "RelativeToolTip": "Mist\\Backend\\Services\\Helpers\\ValidationHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:55:52.251Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "EditUserDto.cs",
+              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\DTOs\\EditUserDto.cs",
+              "RelativeDocumentMoniker": "Mist\\Backend\\DTOs\\EditUserDto.cs",
+              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\DTOs\\EditUserDto.cs",
+              "RelativeToolTip": "Mist\\Backend\\DTOs\\EditUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:31:14.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Models\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "Mist\\Backend\\Models\\CreateUserRequest.cs",
+              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Models\\CreateUserRequest.cs",
+              "RelativeToolTip": "Mist\\Backend\\Models\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:23:21.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "LoginUserDto.cs",
               "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\DTOs\\LoginUserDto.cs",
               "RelativeDocumentMoniker": "Mist\\Backend\\DTOs\\LoginUserDto.cs",
@@ -209,23 +251,64 @@
               "RelativeToolTip": "Mist\\Backend\\DTOs\\LoginUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T09:43:46.221Z"
+              "WhenOpened": "2025-04-21T09:43:46.221Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Mist\\Backend\\Entities\\User.cs",
               "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Entities\\User.cs",
               "RelativeToolTip": "Mist\\Backend\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T09:23:15.384Z"
+              "WhenOpened": "2025-04-21T09:23:15.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\DTOs\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "Mist\\Backend\\DTOs\\CreateUserDto.cs",
+              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\DTOs\\CreateUserDto.cs",
+              "RelativeToolTip": "Mist\\Backend\\DTOs\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T08:52:19.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetUserDto.cs",
+              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\DTOs\\GetUserDto.cs",
+              "RelativeDocumentMoniker": "Mist\\Backend\\DTOs\\GetUserDto.cs",
+              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\DTOs\\GetUserDto.cs",
+              "RelativeToolTip": "Mist\\Backend\\DTOs\\GetUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T09:24:32.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Mist\\Backend\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "Mist\\Backend\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:08:03.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "GetUsersResponse.cs",
               "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\Models\\GetUsersResponse.cs",
               "RelativeDocumentMoniker": "Mist\\Backend\\Models\\GetUsersResponse.cs",
@@ -238,44 +321,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateUserDto.cs",
-              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\DTOs\\CreateUserDto.cs",
-              "RelativeDocumentMoniker": "Mist\\Backend\\DTOs\\CreateUserDto.cs",
-              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\DTOs\\CreateUserDto.cs",
-              "RelativeToolTip": "Mist\\Backend\\DTOs\\CreateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T08:52:19.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetUserDto.cs",
-              "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\DTOs\\GetUserDto.cs",
-              "RelativeDocumentMoniker": "Mist\\Backend\\DTOs\\GetUserDto.cs",
-              "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Backend\\DTOs\\GetUserDto.cs",
-              "RelativeToolTip": "Mist\\Backend\\DTOs\\GetUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T09:24:32.542Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Program.cs",
               "RelativeDocumentMoniker": "Mist\\Program.cs",
               "ToolTip": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Program.cs",
               "RelativeToolTip": "Mist\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T08:06:19.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Mist.csproj",
               "DocumentMoniker": "C:\\z_Personal\\sipiccoRepos\\Mist\\MistApp\\Mist\\Mist.csproj",
               "RelativeDocumentMoniker": "Mist\\Mist.csproj",

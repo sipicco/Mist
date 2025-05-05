@@ -1,6 +1,7 @@
 ﻿using Mist.Backend.DTOs;
 using Mist.Backend.Models;
 using Mist.Backend.Repositories.Interfaces;
+using Mist.Backend.Services.Helpers;
 using Mist.Backend.Services.Interfaces;
 
 namespace Mist.Backend.Services.Implementations;
@@ -23,11 +24,9 @@ public class UserService : IUserService
 
 	public async Task<GetUsersResponse> GetSingleUserAsync(Guid id)
 	{
+		await ValidationHelper.CheckIfUserExistsElseThrow(id, _userRepository);
+
 		var retrievedUser = await _userRepository.GetSingleUserAsync(id);
-		if (retrievedUser == null)
-		{
-			throw new KeyNotFoundException($"UserId {id} not found!");
-		}
 
 		var response = new GetUsersResponse(new List<GetUserDto> { retrievedUser });
 		return response;
@@ -49,6 +48,15 @@ public class UserService : IUserService
 		Guid generatedUserId = await _userRepository.CreateUser(dto);
 		return generatedUserId;
 	}
+
+	public async Task<GetUserDto> EditUser(Guid userId, EditUserDto dto)
+	{
+		await ValidationHelper.CheckIfUserExistsElseThrow(userId, _userRepository);
+
+		var updatedUser = await _userRepository.EditUserAsync(userId, dto);
+		return updatedUser;
+	}
+
 
 	private static void CreatePasswordHash(string password, out byte[] hash, out byte[] salt)
 	{
