@@ -11,4 +11,5 @@ public interface IUserRepository
 	/// <returns>The Id of the generated user</returns>
 	Task<Guid> CreateUser(CreateUserDto dto);
 	Task<IEnumerable<GetUserDto>> GetAllUsersAsync();
+	Task<GetUserDto?> GetSingleUserAsync(Guid id);
 }

@@ -14,10 +14,25 @@ public class UserService : IUserService
 		_userRepository = userRepository;
 	}
 
-	public async Task<IEnumerable<GetUserDto>> GetAllUsersAsync()
+	public async Task<GetUsersResponse> GetAllUsersAsync()
 	{
-		return await _userRepository.GetAllUsersAsync();
+		var dtos = await _userRepository.GetAllUsersAsync();
+
+		return new GetUsersResponse(dtos);
 	}
+
+	public async Task<GetUsersResponse> GetSingleUserAsync(Guid id)
+	{
+		var retrievedUser = await _userRepository.GetSingleUserAsync(id);
+		if (retrievedUser == null)
+		{
+			throw new KeyNotFoundException($"UserId {id} not found!");
+		}
+
+		var response = new GetUsersResponse(new List<GetUserDto> { retrievedUser });
+		return response;
+	}
+
 
 	public async Task<Guid> RegisterUserAsync(CreateUserRequest request)
 	{

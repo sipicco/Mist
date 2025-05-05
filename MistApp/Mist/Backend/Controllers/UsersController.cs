@@ -34,9 +34,9 @@ public class UsersController : ControllerBase
 	/// <returns></returns>
 	// GET Users/{id}
 	[HttpGet("{id}")]
-	public string Get(int id)
+	public async Task<IActionResult> GetSingleUserAsync(Guid id)
 	{
-		return "value";
+		return Ok(await _userService.GetSingleUserAsync(id));
 	}
 
 	/// <summary>

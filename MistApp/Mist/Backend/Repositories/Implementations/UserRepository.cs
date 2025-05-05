@@ -26,6 +26,24 @@ public class UserRepository : IUserRepository
 		});
 	}
 
+	public async Task<GetUserDto?> GetSingleUserAsync(Guid id)
+	{
+		var retrievedUser = await _dbContext.Users
+			.FirstOrDefaultAsync(u => u.Id == id);
+			
+		if (retrievedUser != null)
+		{
+			return new GetUserDto
+			{
+				Username = retrievedUser.Username,
+				Email = retrievedUser.Email,
+				Id = retrievedUser.Id
+			};
+		}
+		return null;
+	}
+
+
 	public async Task<Guid> CreateUser(CreateUserDto dto)
 	{
 		User user = new User
