@@ -57,6 +57,12 @@ public class UsersController : ControllerBase
 	[HttpPut]
 	public async Task<IActionResult> Put([FromQuery] Guid userId, [FromBody] EditUserDto dto)
 	{
-		return Ok(await _userService.EditUser(userId, dto));
+		return Ok(await _userService.EditUserAsync(userId, dto));
+	}
+
+	[HttpDelete]
+	public async Task<IActionResult> Delete([FromQuery] Guid userId)
+	{
+		return Ok(await _userService.DeleteUserAsync(userId));
 	}
 }

@@ -65,24 +65,38 @@ public class UserRepository : IUserRepository
 	{
 		var retrievedUser = await _dbContext.Users.FirstOrDefaultAsync(u => u.Id == userId);
 
-		if (retrievedUser.Email != dto.Email || retrievedUser.Username != dto.Username)
+		if(retrievedUser != null)
 		{
-			retrievedUser.Email = !string.IsNullOrWhiteSpace(dto.Email)
-			? dto.Email
-			: retrievedUser.Email;
+			if (retrievedUser.Email != dto.Email || retrievedUser.Username != dto.Username)
+			{
+				retrievedUser.Email = (!string.IsNullOrWhiteSpace(dto.Email) && dto.Email != "string")
+				? dto.Email
+				: retrievedUser.Email;
 
-			retrievedUser.Username = !string.IsNullOrWhiteSpace(dto.Username)
-				? dto.Username
-				: retrievedUser.Username;
+				retrievedUser.Username = (!string.IsNullOrWhiteSpace(dto.Username) && dto.Username != "string")
+					? dto.Username
+					: retrievedUser.Username;
 
-			await _dbContext.SaveChangesAsync();
-		}		
+				await _dbContext.SaveChangesAsync();
+			}
 
-		return new GetUserDto
-		{
-			Id = retrievedUser.Id,
-			Email = retrievedUser.Email,
-			Username = retrievedUser.Username
-		};
+			return new GetUserDto
+			{
+				Id = retrievedUser.Id,
+				Email = retrievedUser.Email,
+				Username = retrievedUser.Username
+			};
+		}
+		throw new KeyNotFoundException($"User with Id: {userId} could not be found!");		
+	}
+
+	public async Task<bool> DeleteUserAsync(Guid userId)
+	{
+		var userToDelete = await _dbContext.Users.FirstAsync(u => u.Id == userId);
+
+		_dbContext.Remove(userToDelete);
+		await _dbContext.SaveChangesAsync();
+
+		return true;
 	}
 }

@@ -19,8 +19,10 @@ builder.Services.AddSwaggerGen(c =>
 	c.IncludeXmlComments(xmlPath);
 });
 
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnectionString");
+
 builder.Services.AddDbContext<MistDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnectionString")));
+	options.UseNpgsql(connectionString));
 
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IUserService, UserService>();

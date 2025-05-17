@@ -10,6 +10,7 @@ public interface IUserRepository
 	/// <param name="dto"></param>
 	/// <returns>The Id of the generated user</returns>
 	Task<Guid> CreateUser(CreateUserDto dto);
+	Task<bool> DeleteUserAsync(Guid userId);
 	Task<GetUserDto> EditUserAsync(Guid userId, EditUserDto dto);
 	Task<IEnumerable<GetUserDto>> GetAllUsersAsync();
 	Task<GetUserDto> GetSingleUserAsync(Guid id);

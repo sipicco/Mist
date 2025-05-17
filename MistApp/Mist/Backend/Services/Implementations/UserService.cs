@@ -49,12 +49,21 @@ public class UserService : IUserService
 		return generatedUserId;
 	}
 
-	public async Task<GetUserDto> EditUser(Guid userId, EditUserDto dto)
+	public async Task<GetUserDto> EditUserAsync(Guid userId, EditUserDto dto)
 	{
 		await ValidationHelper.CheckIfUserExistsElseThrow(userId, _userRepository);
 
 		var updatedUser = await _userRepository.EditUserAsync(userId, dto);
 		return updatedUser;
+	}
+
+	public async Task<bool> DeleteUserAsync(Guid userId)
+	{
+		await ValidationHelper.CheckIfUserExistsElseThrow(userId, _userRepository);
+
+		bool userDeleted = await _userRepository.DeleteUserAsync(userId);
+
+		return userDeleted;
 	}
 
 
