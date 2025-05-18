@@ -16,14 +16,17 @@ namespace Mist.Backend.Data
 		{
 			base.OnModelCreating(modelBuilder);
 
-			modelBuilder.Entity<User>().HasData(new User
+			modelBuilder.Entity<User>().ToTable("users");
+
+			foreach (var entity in modelBuilder.Model.GetEntityTypes()) // Force tables and columns in lowercase
 			{
-				Id = Guid.Parse("12341234-1234-1234-1234-123412341234"),
-				PasswordHash = Convert.FromBase64String("cGFzc3dvcmRoYXNo"), // password hash
-				PasswordSalt = Convert.FromBase64String("c2FsdGRhdGE="), // "saltdata"
-				Username = "seedUsername",
-				Email = "seedEmail@gmail.com"
-			});
+				entity.SetTableName(entity.GetTableName()!.ToLower());
+
+				foreach (var property in entity.GetProperties())
+				{
+					property.SetColumnName(property.Name.ToLower());
+				}
+			}
 		}
 	}
 }
