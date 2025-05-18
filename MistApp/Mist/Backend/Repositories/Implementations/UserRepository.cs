@@ -99,4 +99,17 @@ public class UserRepository : IUserRepository
 
 		return true;
 	}
+
+	#region Validation methods
+
+	public async Task<bool> IsEmailExisting(string email)
+	{
+		return await _dbContext.Users.AnyAsync(u =>  u.Email == email);
+	}
+	public async Task<bool> IsUsernameExisting(string username)
+	{
+		return await _dbContext.Users.AnyAsync(u => u.Username == username);
+	}
+
+	#endregion
 }

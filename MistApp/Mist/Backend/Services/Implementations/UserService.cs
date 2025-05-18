@@ -35,6 +35,8 @@ public class UserService : IUserService
 
 	public async Task<Guid> RegisterUserAsync(CreateUserRequest request)
 	{
+		await ValidationHelper.ValidateCreateUserRequest(request, _userRepository);
+
 		CreatePasswordHash(request.Password, out byte[] hash, out byte[] salt);
 
 		var dto = new CreateUserDto

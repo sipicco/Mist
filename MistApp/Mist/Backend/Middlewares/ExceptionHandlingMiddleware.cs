@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using Mist.Backend.Exceptions;
+using System.Net;
 using System.Security.Authentication;
 using System.Text.Json;
 
@@ -39,6 +40,9 @@ namespace Mist.Backend.Middlewares
 					break;
 				case AuthenticationException:
 					statusCode = HttpStatusCode.Unauthorized;
+					break;
+				case EmailAlreadyExistsException or UsernameAlreadyExistsException:
+					statusCode = HttpStatusCode.Conflict;
 					break;
 				default:
 					statusCode = HttpStatusCode.InternalServerError; // default is 500

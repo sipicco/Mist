@@ -14,4 +14,6 @@ public interface IUserRepository
 	Task<GetUserDto> EditUserAsync(Guid userId, EditUserDto dto);
 	Task<IEnumerable<GetUserDto>> GetAllUsersAsync();
 	Task<GetUserDto> GetSingleUserAsync(Guid id);
+	Task<bool> IsEmailExisting(string email);
+	Task<bool> IsUsernameExisting(string username);
 }
