@@ -1,37 +1,20 @@
-using Microsoft.EntityFrameworkCore;
-using Mist.Backend.Data;
 using Mist.Backend.Middlewares;
-using Mist.Backend.Repositories.Implementations;
-using Mist.Backend.Repositories.Interfaces;
-using Mist.Backend.Services.Implementations;
-using Mist.Backend.Services.Interfaces;
-using System.Reflection;
+using Mist.StartupConfig;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
-{
-	// Load in xml file containing documentation and display it in swagger
-	var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-	var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-	c.IncludeXmlComments(xmlPath);
-});
+builder.AddConfiguration(); // Add secrets to the config
+builder.AddDbConnection();
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnectionString");
+builder.AddStandardServices();
+builder.AddCustomServices();
 
-builder.Services.AddDbContext<MistDbContext>(options =>
-	options.UseNpgsql(connectionString));
+builder.AddAuthentication();
 
-builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<IUserService, UserService>();
-
-builder.Services.AddScoped<IAuthRepository, AuthRepository>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-
+// Build app
 var app = builder.Build();
 
+// Middlewares
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 if (app.Environment.IsDevelopment())
@@ -42,6 +25,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
