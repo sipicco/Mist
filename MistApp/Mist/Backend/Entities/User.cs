@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Mist.Backend.Enums;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Mist.Backend.Entities
 {
@@ -10,6 +11,8 @@ namespace Mist.Backend.Entities
 		public string Email { get; set; }
 		public byte[] PasswordHash { get; set; }
 		public byte[] PasswordSalt { get; set; }
-		public string Role {  get; set; }
+
+		[Column(TypeName = "text")]
+		public UserRole Role {  get; set; }
 	}
 }

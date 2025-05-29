@@ -7,8 +7,7 @@ public interface IAuthService
 	/// <summary>
 	/// Retrieves a User from db and verifies password
 	/// </summary>
-	/// <param name="email"></param>
-	/// <param name="password"></param>
+	/// <param name="request"></param>
 	/// <returns>True if password is correct</returns>
-	Task<bool> LoginUserAsync(LoginUserRequest request);
+	Task<LoginUserResponse> LoginUserAsync(LoginUserRequest request);
 }

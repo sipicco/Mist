@@ -1,13 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Mist.Backend.DTOs;
+using Mist.Backend.Enums;
 using Mist.Backend.Models;
 using Mist.Backend.Services.Interfaces;
 
 
 namespace Mist.Backend.Controllers;
 
-[Route("[controller]")]
 [ApiController]
+[Route("[controller]")]
+[Authorize(Roles = nameof(UserRole.Admin))]
 public class UsersController : ControllerBase
 {
 	private readonly IUserService _userService;

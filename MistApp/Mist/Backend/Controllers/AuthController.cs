@@ -23,8 +23,15 @@ public class AuthController : ControllerBase
 	/// <returns></returns>
 	// POST Auth
 	[HttpPost("/Login")]
-	public async Task<IActionResult> Post([FromQuery] LoginUserRequest request)
+	public async Task<IActionResult> Post([FromBody] LoginUserRequest request)
 	{
-		return Ok(await _authService.LoginUserAsync(request));
+		var result = await _authService.LoginUserAsync(request);
+
+		if (result == null)
+		{
+			return Unauthorized("Invalid credentials");
+		}
+
+		return Ok(result);
 	}
 }

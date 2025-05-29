@@ -8,5 +8,4 @@
 		public int TokenExpiryMinutes { get; set; }
 		public int RefreshTokenExpiryDays { get; set; }
 	}
-
 }

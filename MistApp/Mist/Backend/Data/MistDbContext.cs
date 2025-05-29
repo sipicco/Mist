@@ -16,7 +16,10 @@ namespace Mist.Backend.Data
 		{
 			base.OnModelCreating(modelBuilder);
 
-			modelBuilder.Entity<User>().ToTable("users");
+			modelBuilder.Entity<User>()
+				.ToTable("users")
+				.Property(u => u.Role)
+					.HasConversion<string>();
 
 			foreach (var entity in modelBuilder.Model.GetEntityTypes()) // Force tables and columns in lowercase
 			{

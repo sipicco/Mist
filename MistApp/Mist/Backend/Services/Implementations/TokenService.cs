@@ -27,7 +27,7 @@ namespace Mist.Backend.Services.Implementations
 			{
 				new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
 				new Claim(JwtRegisteredClaimNames.Email, user.Email),
-				new Claim(ClaimTypes.Role, user.Role)
+				new Claim(ClaimTypes.Role, user.Role.ToString())
 			};
 
 			var token = new JwtSecurityToken(
@@ -40,7 +40,7 @@ namespace Mist.Backend.Services.Implementations
 
 			return new JwtSecurityTokenHandler().WriteToken(token);
 		}
-
+		
 		public string GenerateRefreshToken()
 		{
 			var randomNumber = new byte[32];
@@ -56,8 +56,8 @@ namespace Mist.Backend.Services.Implementations
 				ValidateAudience = false,
 				ValidateIssuer = false,
 				ValidateIssuerSigningKey = true,
-				IssuerSigningKey = new SymmetricSecurityKey(_key),
-				ValidateLifetime = false // qui disabilitiamo la validazione della scadenza
+				IssuerSigningKey = new SymmetricSecurityKey(_key), // key must be valid
+				ValidateLifetime = false // expired tokens are valid
 			};
 
 			var tokenHandler = new JwtSecurityTokenHandler();
